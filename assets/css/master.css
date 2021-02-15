@@ -1,0 +1,55 @@
+body {
+  font-family: sans-serif;
+  font-size: 16px;
+}
+
+/* NAVBAR */
+.navbar {
+  margin-bottom: 0;
+  height: 65px;
+  padding: 8px 0;
+}
+
+a.navbar-brand {
+  /* padding-left: 0px; */
+  padding-top: 10px;
+}
+
+.navbar-brand img {
+  height: 28px;
+}
+
+.navbar-toggle {
+  border: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar {
+  background-color: #006AFF;
+  height: 3px;
+}
+
+.navbar-default .navbar-nav>li>a {
+  color: #000;
+}
+
+.navbar-right .btn.btn-default {
+  color: #006AFF;
+  border-color: #006AFF;
+}
+/* JUMBOTRON */
+.jumbo {
+  background-image: url("../img/sea.svg");
+  height: 700px;
+}
+/* UTILITY */
+
+
+
+/* MEDIA QUERY */
+@media all and (min-width: 768px) {
+
+}
+
+@media all and (min-width: 992px) {
+
+}
