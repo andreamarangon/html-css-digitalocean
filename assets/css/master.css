@@ -7,11 +7,11 @@ body {
 .navbar {
   margin-bottom: 0;
   height: 65px;
-  padding: 8px 0;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 a.navbar-brand {
-  /* padding-left: 0px; */
   padding-top: 10px;
 }
 
@@ -32,24 +32,70 @@ a.navbar-brand {
   color: #000;
 }
 
+.nav>li>a {
+  padding-left: 5px;
+}
+
+#bs-example-navbar-collapse-1 >.nav.navbar-nav {
+  margin-left: 70px;
+}
+
 .navbar-right .btn.btn-default {
   color: #006AFF;
   border-color: #006AFF;
 }
+
+form.navbar-form.navbar-right {
+  padding-left: 0;
+}
+
 /* JUMBOTRON */
-.jumbo {
+.jumbotron {
   background-image: url("../img/sea.svg");
-  height: 700px;
+  height: calc(100%-65px);
+  margin-top: 65px;
+
 }
 /* UTILITY */
+.text-white {
+  color: #fff;
+}
 
+.mt-1 {
+  margin-top: 2rem;
+}
+.mt-2 {
+  margin-top: 3rem;
+}
+
+.mb-1 {
+  margin-bottom: 2rem;
+}
+
+.mb-2 {
+  margin-bottom: 3rem;
+}
 
 
 /* MEDIA QUERY */
-@media all and (min-width: 768px) {
-
+@media all and (min-width: 768px) and (max-width: 991px) {
+  .navbar-header {
+    width: 100%;
+  }
+  .navbar-toggle {
+    display: block;
+  }
+  .navbar-nav, .navbar-right {
+    display: none;
+  }
 }
 
-@media all and (min-width: 992px) {
+ @media all and (min-width: 768px) {
 
-}
+ }
+
+
+
+ @media all and (min-width: 992px) {
+
+ }
