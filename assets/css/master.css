@@ -66,9 +66,28 @@ form>button.btn.btn-default {
   width: 100%;
 }
 
+#Create-your-account {
+  background-color: #579AFF;
+}
+
+form>button.btn.btn-default img {
+  height: 20px;
+  float: left;
+}
+
+.card p {
+  font-size: 12px;
+  margin-top: 15px;
+}
+
+
 /* UTILITY */
 .text-white {
   color: #fff;
+}
+
+.text-blue {
+  color: #006AFF;
 }
 
 .mt-1 {
@@ -84,6 +103,14 @@ form>button.btn.btn-default {
 
 .mb-2 {
   margin-bottom: 3rem;
+}
+
+.font-weight-bold {
+  font-weight: bold;
+}
+
+.text-underscore {
+  text-decoration: underline;
 }
 
 
