@@ -3,6 +3,10 @@ body {
   font-size: 16px;
 }
 
+h2, h3, h4, h5 {
+  color: rgb(3, 27, 78);
+}
+
 /* NAVBAR */
 .navbar {
   margin-bottom: 0;
@@ -54,6 +58,7 @@ form.navbar-form.navbar-right {
   background-image: url("../img/sea.svg");
   height: calc(100%-65px);
   margin-top: 65px;
+  margin-bottom: 0;
 }
 
 .card {
@@ -80,6 +85,36 @@ form>button.btn.btn-default img {
   margin-top: 15px;
 }
 
+.thumbnail {
+  border: none;
+  padding: 0;
+  background-color: #F3F5F9;
+}
+
+/* BUSINESS LOGO SECTION */
+.thumbnail img {
+  margin: 0 auto;
+}
+
+/* DEPLOY SECTION */
+.deploy-list ul {
+  list-style: none;
+  padding: 0;
+}
+
+.deploy-list ul li {
+  border-left: 2px solid gray;
+  padding: 5px;
+}
+
+.deploy-list ul li a {
+  color: gray;
+  text-decoration: none;
+}
+
+.deploy-list ul li:active {
+  border-left: 2px solid #006AFF;
+}
 
 /* UTILITY */
 .text-white {
@@ -90,9 +125,14 @@ form>button.btn.btn-default img {
   color: #006AFF;
 }
 
+.text-gray {
+  color: gray;
+}
+
 .mt-1 {
   margin-top: 2rem;
 }
+
 .mt-2 {
   margin-top: 3rem;
 }
@@ -112,6 +152,15 @@ form>button.btn.btn-default img {
 .text-underscore {
   text-decoration: underline;
 }
+
+.bg-lightgray {
+  background-color: #F3F5F9;
+}
+
+.arrow-right:after {
+  content: ' \003E';
+}
+
 
 
 /* MEDIA QUERY */
