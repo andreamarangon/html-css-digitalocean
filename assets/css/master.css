@@ -139,6 +139,45 @@ form>button.btn.btn-default img {
   background-color: #006AFF;
 }
 
+/* CUSTOMERS SERVICE SECTION */
+.bg-map-blue {
+  background-image: url("../img/bg-map.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-color: #031B4E;
+}
+
+.bg-map-blue ul {
+  list-style: none;
+  padding: 0;
+}
+
+.location-server, .location-city, .test-speed {
+  display: inline-block;
+}
+
+.location-server {
+  width: 20%;
+}
+
+.location-city {
+}
+
+.test-speed {
+  float: right;
+  color: rgb(0, 215, 210);
+}
+
+.bg-map-blue ul>li {
+  border-bottom: 1px solid #fff;
+  padding-top: 10px;
+}
+
+.bg-map-blue ul>li:last-child {
+  border: 0;
+}
+
+
 /* UTILITY */
 .text-white {
   color: #fff;
@@ -192,7 +231,7 @@ form>button.btn.btn-default img {
   background-color: #F3F5F9;
 }
 
-.arrow-right:after {
+.my-arrow-right:after {
   content: ' \003E';
 }
 
