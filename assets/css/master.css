@@ -1,6 +1,5 @@
 body {
   font-family: sans-serif;
-  font-size: 16px;
 }
 
 h2, h3, h4, h5 {
@@ -119,9 +118,10 @@ form>button.btn.btn-default img {
 
 /* DESIGNED FOR DEVELOPERS SECTION */
 .page {
-  width: 100%;
+  width: 80%;
   margin-top: 100px;
 }
+
 
 .my-circle {
   height: 10px;
@@ -227,6 +227,8 @@ form>button.btn.btn-default img {
 /* CREATE YOUR ACCOUNT SECTION */
 .create-your-account {
   background-image: url("../img/bg-account-blue.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
 }
 
 .create-your-account .my-btn {
@@ -255,8 +257,12 @@ footer ul {
   margin-right: 10px;
 }
 
-footer li a{
+footer li a {
   color: gray;
+}
+
+footer ul li {
+  margin-bottom: 6px;
 }
 
 footer li a:hover{
@@ -269,28 +275,53 @@ footer li a:hover{
   height: 60px;
   width: 60px;
   border-radius: 5px;
+  position: relative;
+  box-shadow: 1px 1px 15px 1px #000;
 }
 
 .shark-cloud {
-  width: 380px;
+  width: 300px;
   background-color: #fff;
-  border:1px solid rgb(3, 27, 78);
   border-radius: 5px;
   padding: 9px;
+  position: relative;
+  box-shadow: 1px 1px 15px 1px #222;
 }
 
 .shark-tool {
-  width: 480px;
+  width: 410px;
   position: fixed;
   bottom: 0;
   left: 0;
   z-index: 10;
-  margin: 0 0 50px 30px;
+  margin: 0 0 50px 20px;
 }
 
 .shark-cloud p {
   margin: 0;
 }
+
+.my-triangle-white {
+  font-size: 23px;
+  color: #fff;
+  position: absolute;
+  bottom: 0;
+  right: -7px;
+}
+
+.my-notification {
+  font-size: 14px;
+  color: #fff;
+  background-color: #f00;
+  border-radius: 100%;
+  width: 29px;
+  height: 29px;
+  border: 4px solid #fff;
+  position: absolute;
+  top: -6px;
+  left: 57px;
+}
+
 
 /* UTILITY */
 .text-white {
@@ -366,6 +397,10 @@ footer li a:hover{
   background-color: rgb(3, 27, 78);
 }
 
+.my-font-size {
+  font-size: 20px;
+}
+
 /* MEDIA QUERY */
 @media all and (min-width: 768px) and (max-width: 991px) {
   .navbar-header {
@@ -389,8 +424,6 @@ footer li a:hover{
   }
  }
 
-
-
  @media all and (min-width: 992px) {
    .shark-tool {
      right: 0;
@@ -401,5 +434,8 @@ footer li a:hover{
      float: right;
    }
 
-
+   .my-notification {
+     top: -6px;
+     left: 374px;
+   }
  }
