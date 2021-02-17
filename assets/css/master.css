@@ -44,11 +44,6 @@ a.navbar-brand {
   margin-left: 70px;
 }
 
-.navbar-right .btn.btn-default {
-  color: #006AFF;
-  border-color: #006AFF;
-}
-
 form.navbar-form.navbar-right {
   padding-left: 0;
 }
@@ -229,6 +224,46 @@ form>button.btn.btn-default img {
   margin-top: 20px;
 }
 
+/* CREATE YOUR ACCOUNT SECTION */
+.create-your-account {
+  background-image: url("../img/bg-account-blue.svg");
+}
+
+.create-your-account .my-btn {
+  padding: 10px 12px;
+  font-size: 16px;
+}
+
+/* FOOTER */
+footer .bg-blue {
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+}
+
+.social-logo-box li {
+  display: inline-block;
+}
+
+.social-logo-box li a{
+  color: gray;
+  font-size: 25px;
+  margin-right: 10px;
+}
+
+footer li a{
+  color: gray;
+}
+
+footer li a:hover{
+  color: #fff;
+  text-decoration: none;
+}
+
 /* UTILITY */
 .text-white {
   color: #fff;
@@ -294,7 +329,14 @@ form>button.btn.btn-default img {
   content: ' \003E';
 }
 
+.my-btn {
+  color: #006AFF;
+  border-color: #006AFF;
+}
 
+.bg-blue {
+  background-color: rgb(3, 27, 78);
+}
 
 /* MEDIA QUERY */
 @media all and (min-width: 768px) and (max-width: 991px) {
