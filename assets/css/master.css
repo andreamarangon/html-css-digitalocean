@@ -73,6 +73,7 @@ form>button.btn.btn-default {
 
 #Create-your-account {
   background-color: #579AFF;
+  margin-bottom: 5px;
 }
 
 form>button.btn.btn-default img {
@@ -102,9 +103,9 @@ form>button.btn.btn-default img {
   padding: 0;
 }
 
-.deploy-list ul li {
+.deploy-list ul li a {
   border-left: 2px solid gray;
-  padding: 5px;
+  padding: 10px;
 }
 
 .deploy-list ul li a {
@@ -112,8 +113,13 @@ form>button.btn.btn-default img {
   text-decoration: none;
 }
 
-.deploy-list ul li:hover {
-  border-left: 2px solid #006AFF;
+.deploy-list ul li {
+  padding-bottom: 15px;
+}
+
+.deploy-list ul li a:target {
+  color: rgb(3, 27, 78);
+  border-color: #006AFF;
 }
 
 /* DESIGNED FOR DEVELOPERS SECTION */
@@ -177,6 +183,51 @@ form>button.btn.btn-default img {
   border: 0;
 }
 
+/* ROCKERBOX SECTION */
+.rockerbox img{
+  width: 100%;
+  max-width: 250px;
+}
+
+.rockerbox {
+  display: inline-block;
+  width: 80%;
+}
+
+.rockerbox .text-gray {
+  font-size: 20px;
+}
+
+.my-angle-left, .my-angle-right{
+  display: inline-block;
+  height: 100%;
+  display: none;
+}
+
+.card-rockerbox {
+  position:relative;
+}
+
+.my-angle-left {
+  position: absolute;
+  left: 0;
+  top: 50%;
+}
+
+.my-angle-right {
+  position: absolute;
+  right: 0;
+  top: 50%;
+}
+
+.fa-angle-left, .fa-angle-right {
+  font-size: 50px;
+}
+
+.rockerbox h5 {
+  font-weight: bold;
+  margin-top: 20px;
+}
 
 /* UTILITY */
 .text-white {
@@ -219,6 +270,10 @@ form>button.btn.btn-default img {
   margin-bottom: 6rem;
 }
 
+.pb-1 {
+  padding-bottom: 1rem;
+}
+
 .font-weight-bold {
   font-weight: bold;
 }
@@ -229,6 +284,10 @@ form>button.btn.btn-default img {
 
 .bg-lightgray {
   background-color: #F3F5F9;
+}
+
+.bg-white {
+  background-color: #fff;
 }
 
 .my-arrow-right:after {
@@ -253,6 +312,10 @@ form>button.btn.btn-default img {
  @media all and (min-width: 768px) {
   .deploy {
     margin-top: 30px;
+  }
+
+  .my-angle-left, .my-angle-right {
+    display: block;
   }
  }
 
