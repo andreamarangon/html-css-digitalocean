@@ -264,6 +264,34 @@ footer li a:hover{
   text-decoration: none;
 }
 
+/* SHARK SECTION */
+.shark-box img {
+  height: 60px;
+  width: 60px;
+  border-radius: 5px;
+}
+
+.shark-cloud {
+  width: 380px;
+  background-color: #fff;
+  border:1px solid rgb(3, 27, 78);
+  border-radius: 5px;
+  padding: 9px;
+}
+
+.shark-tool {
+  width: 460px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  z-index: 10;
+  margin: 0 0 50px 30px;
+}
+
+.shark-cloud p {
+  margin: 0;
+}
+
 /* UTILITY */
 .text-white {
   color: #fff;
@@ -364,5 +392,21 @@ footer li a:hover{
 
 
  @media all and (min-width: 992px) {
+   .shark-tool {
+     position: fixed;
+     bottom: 0;
+     right: 0;
+     z-index: 10;
+     margin: 0 0 50px 30px;
+   }
+
+   .shark-box, .shark-cloud{
+     display: inline-block;
+   }
+
+   .shark-box {
+     float: right;
+   }
+
 
  }
